@@ -1,0 +1,20 @@
+# Set up for Microchip/MPLAB X development
+
+~*.*
+build/
+debug/
+dist/
+.generated_files/
+nbproject/private/
+nbproject/*.mk
+nbproject/*.bash
+nbproject/Makefile-genesis.properties
+queuelogs/
+
+# MCC specific
+*mc3.bak*
+
+# Large Files
+*.exe
+*.zip
+*.pdf
